@@ -1,0 +1,42 @@
+
+@media only screen and	(max-width: 800px)	{	
+	}	
+	body {
+	 background: url(lacrosse.jpg) no-repeat center center fixed;
+	 background-size: cover;
+} 
+.header {
+    
+    background-image: url("lax.jpeg");
+    color:white ;
+    text-align:center;
+    padding:15px; 
+}
+.links {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:850px;
+    width:100px;
+    float:left;
+    padding:5px; 
+    margin: 30px;
+          background-color: #ffffff;
+          border: 1px solid black;
+          opacity: .85;
+  filter: alpha(opacity=60);
+}
+.section {
+text-align:center;					
+    width:350px;
+    float:left;
+    padding:10px; 
+    margin: 30px;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: .85;
+  filter: alpha(opacity=60);
+   
+}
+fieldset {
+  
+}

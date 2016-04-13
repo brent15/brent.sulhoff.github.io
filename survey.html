@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+<title> Survey </title>
+<meta charset = "utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class = "header">
+	<h1>Survey</h1>
+</div>
+<div class = "links">
+	<a href = "home.html">Home<br></a>
+	<a href = "equipment.html">Equipment<br></a>
+	<a href = "rules.html">Rules<br></a>
+	<a href = "survey.html">Survey</a>
+</div>
+<div class = "section">
+
+<fieldset><legend>SURVEY</legend>
+	<label for="Name">Name:</label>
+	<input type = "text" name = "Name" id="Name">
+	<br/><br/>
+	<label for ="E-mail">E-mail:</label>
+	<input type ="text" name= "E-mail" id="E-mail">
+	<br/><br/>
+	<label for="age">Age:</label>
+	<input type="text" name="age" id="age"
+	list="age" >
+	<datalist id="age">
+	 <option value="10-14">
+	 <option value="14-19">
+	 <option value="20-25">
+	 <option value="26-30">
+	 <option value="32-40">
+	 <option value="50+">
+</datalist>
+<br/><br/>
+	<label for="myChoice">
+	On the scale of 1 and 10 how much did you learn</label><br>
+	1 <input type="range" name="myChoice" id="myChoice"> 10
+	<br/><br/>
+	<label for ="comment">
+	What is something you learned?
+	<input type= "textarea" name="comment" id="comment">
+	<br/><br/>
+		<button type="button">submit</button>
+</fieldset>
+
+
+</div>
+</body>
+
+</html>
