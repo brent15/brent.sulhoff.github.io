@@ -1,2 +1,2 @@
-# brent.sulhoff.github.io
+# http://brent.sulhoff.github.io
 lacrosse website
